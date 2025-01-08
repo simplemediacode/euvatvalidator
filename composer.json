@@ -1,0 +1,24 @@
+{
+    "name": "simplemediacode/euvatvalidator",
+    "description": "EU Vat Validator PHP Library for Team.House",
+    "type": "library",
+    "require": {
+        "php": ">=7.4|~8.3|~8.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Simplemediacode\\TeamHouse\\Tax\\EuVat\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "rolandinsh",
+            "email": "rolands@mediabox.lv"
+        }
+    ],
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "require-dev": {
+        "phpunit/phpunit": "^11.5"
+    }
+}
